@@ -3,6 +3,8 @@ import styles from './homepage.css';
 import { Pages, pages } from '../../App';
 import { Link } from 'react-router-dom';
 
+// console.log(pages); Error Cannot access 'pages' before initialization
+
 export function HomePage() {
   const pagesArr = Object.keys(pages) as Pages[];
   return (
